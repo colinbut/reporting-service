@@ -3,7 +3,7 @@
  * | Copyright © 2018 Colin But. All rights reserved. 
  * |-------------------------------------------------
  */
-package com.mycompany.reporting;
+package com.mycompany.reporting.event;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
