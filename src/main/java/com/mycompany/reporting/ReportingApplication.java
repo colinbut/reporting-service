@@ -19,5 +19,7 @@ public class ReportingApplication {
                 ((ClassPathXmlApplicationContext)applicationContext).close();
             }
         });
+
+        while (true){}
     }
 }

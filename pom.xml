@@ -26,6 +26,7 @@
         <spring.version>4.1.9.RELEASE</spring.version>
         <activemq.spring.version>5.10.0</activemq.spring.version>
         <apache.commons.lang3.version>3.6</apache.commons.lang3.version>
+        <slf4j-log4j12.version>1.6.1</slf4j-log4j12.version>
     </properties>
 
     <dependencies>
@@ -52,6 +53,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>${apache.commons.lang3.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j-log4j12.version}</version>
         </dependency>
 
     </dependencies>
