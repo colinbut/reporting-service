@@ -8,5 +8,5 @@ package com.mycompany.reporting.event;
 public enum UserEventType {
     CREATED,
     UPDATED,
-    DELETED
+    DELETED;
 }
