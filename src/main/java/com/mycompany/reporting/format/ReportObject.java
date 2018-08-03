@@ -7,6 +7,8 @@ package com.mycompany.reporting.format;
 
 import java.util.Date;
 
+import org.joda.time.DateTime;
+
 public class ReportObject {
 
     private DateTime dateTime;

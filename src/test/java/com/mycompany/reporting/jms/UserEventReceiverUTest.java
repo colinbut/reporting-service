@@ -5,8 +5,6 @@
  */
 package com.mycompany.reporting.jms;
 
-import javax.jms.Message;
-
 import com.mycompany.reporting.event.UserEvent;
 import com.mycompany.reporting.service.ReportingService;
 import javax.jms.MessageListener;
