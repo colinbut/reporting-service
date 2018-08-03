@@ -27,6 +27,7 @@
         <activemq.spring.version>5.10.0</activemq.spring.version>
         <apache.commons.lang3.version>3.6</apache.commons.lang3.version>
         <slf4j-log4j12.version>1.6.1</slf4j-log4j12.version>
+        <joda.time.version>2.10</joda.time.version>
     </properties>
 
     <dependencies>
@@ -59,6 +60,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j-log4j12.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>${joda.time.version}</version>
         </dependency>
 
     </dependencies>
